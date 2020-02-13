@@ -1,0 +1,15 @@
+--- custom_derive-0.1.7/Cargo.toml	2016-11-21T06:04:17+01:00
++++ custom_derive-0.1.7/Cargo.toml	2019-03-09T14:43:52.351793+01:00
+@@ -19,12 +19,6 @@
+     "update-docs.py",
+ ]
+ 
+-[workspace]
+-members = [
+-    "enum_derive",
+-    "newtype_derive",
+-]
+-
+ [features]
+ default = ["std"]
+ std = []
